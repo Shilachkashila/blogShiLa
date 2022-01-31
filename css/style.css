@@ -1,0 +1,13 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /* свойство scroll-behavior не наследуется,
+  применяется к прокручиваемым блокам кроме боди.*/
+}
+
+/*-------------*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
