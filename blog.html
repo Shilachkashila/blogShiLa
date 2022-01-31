@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang"ru">
+<head>
+  <meta charset="utf-8">
+  <title>Shilas_blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/mine.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="icon" href=img/favicon.ico>
+</head>
+<body>
+  <div class="wrapper">
+    <header id="top" class="header">
+      <h1 class="header__title">Shilas_blog</h1>
+    </header>
+    <!-- навигация -->
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html" class="menu__link" title="главная"><span class="menu_mobile"> главная</span></a></li>
+        <li><a id="modalBtn" href="#plug" class="menu__link" title="все статьи"><span class="menu_mobile"> все статьи</span></a></li>
+        <li><a href="#contact" class="menu__link" title="контакты"><span class="menu_mobile"> контакты</span></a></li>
+      </ul>
+    </nav>
+    <article class="">
+      <h2>Первая запись</h2>
+      <p>Однажды во всём мире случилась пандемия вируса COVID19 и планы Шилачки
+        заработать денюжек в Польше "накрылись медным тазом". А вместе с ними и планы
+         отметить День рождения в ночном клубе и рвануть домой на самолёте. Впервые в жизни
+          полетать на самолёте, эх "не судьба"... Обратная дорога домой в условиях карантина
+           и всеобщей паники оказалась сложной и затратной. Авиакомпания Ryanair деньги за билет
+            так и не вернула(интересно вернула ли хоть кому нибудь?), а стоимость поездки на
+             автомобилях приравнялась к двум билетам на самолёт. Денюжки таяли, перспектива работать
+              в Польше исчезала вместе с продлениями карантина.
+            "Нужно что то делать" подумала Шилачка...и купила себе Бас.</p>
+      <time pubdate>2020-05</time>
+      <p>Категория: <span>первая категория</span></p>
+    </article>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__contacts">
+        <h3 class="contacts__title" id="contact">contacts</h3>
+        <ul class="contacts">
+           <!-- <li><a class="contacts" href="tel:+380971517435"> +38 097 151 74 35</a></li> -->
+           <li><a class="contacts" href="mailto:shlachkashilana@gmail.com"> shlachkashilana@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer__button_box">
+          <a class="footer__button"href="#top">up ^_^</a>
+      </div>
+    </footer>
+    <!-- модальное окно список статей-->
+    <div id="myModal" class="modal-window">
+      <div class="modal-content">
+          <span class="close">&times;</span> <!-- спецсимвол которого нет
+             на клавиатуре &times;знак умножения-->
+        <div class="modal-body">
+          <p>поиск по блогу. Какой он будет? Может по дате добавления или по названию?</p>
+          <!-- список категорий -->
+          <ul>
+            <li>первая категория</li>
+            <li>вторая категория</li>
+          </ul>
+          <!-- список статей. что будет видно кроме названия? -->
+          <ul>
+            <li>первая статья</li>
+            <li>вторая статья</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- скрипты -->
+  <script src="script/modal.js"></script>
+</body>
